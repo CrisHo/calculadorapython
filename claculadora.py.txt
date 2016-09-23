@@ -23,7 +23,7 @@ opc=input("elige una opcion:")
 x=int(input("ingresa un numero:"))
 y=int(input("ingresa otro numero:"))
 
-          if opc<1 and opc<2 and opc<3 and opc<4 and opc<5:
+          if opc==1 and opc==2 and opc==3 and opc==4 and opc==5:
        
               suma = x+y
 
@@ -33,7 +33,7 @@ y=int(input("ingresa otro numero:"))
 
               opc=input("elige una opcion:")
 
-          if opc<1 and opc<2 and opc<3 and opc<3 and opc<4 and opc<5:
+          if opc==1 and opc==2 and opc==3 and opc==3 and opc==4 and opc==5:
 
               resta = x-y
 
@@ -43,7 +43,7 @@ y=int(input("ingresa otro numero:"))
 
               opc=input("elige una opcion:")
 
-          if opc<1 and opc<2 and opc<3 and opc<4 and opc<5:
+          if opc==1 and opc==2 and opc==3 and opc==4 and opc==5:
 
               multiplicacion = x*y
 
@@ -52,8 +52,8 @@ y=int(input("ingresa otro numero:"))
               os. system("cls")
 
               opc=input("elige una opcion:")
-
-         if opc<1 and opc<2 and opc<3 and opc<4 and opc<5:
+              
+          if opc==1 and opc==2 and opc==3 and opc==4 and opc==5:
 
              division = x/y
  
@@ -63,5 +63,6 @@ y=int(input("ingresa otro numero:"))
 
              opc=input("elige una opcion:")
 
-         if opc<=5:   
+         if opc==5
+            break
               
